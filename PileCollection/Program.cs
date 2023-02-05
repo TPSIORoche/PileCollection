@@ -23,7 +23,8 @@ namespace PileCollection
                 //Console.WriteLine(TesteSplit());
                 //TesteInversePhrase();
                 string a = "Un wiki est une application web qui permet la création, la modification et l'illustration collaboratives de pages à l'intérieur d'un site web. Il utilise un langage de balisage et son contenu est modifiable au moyen d’un navigateur web. C'est un logiciel de gestion de contenu, dont la structure implicite est minimale, tandis que la structure explicite se met en place progressivement en fonction des besoins des usagers.";
-                Console.WriteLine(InversePhraseMieux2(a));
+                //Console.WriteLine(InversePhraseMieux2(a));
+                TesteInversePhrase();
             }
             catch (Exception ex)
             {
@@ -318,7 +319,7 @@ namespace PileCollection
                 Console.WriteLine("\n Version Pile");
                 Console.WriteLine(phraseInversee);
                 Console.WriteLine(phraseInversee);
-                phraseInversee = InversePhraseMieux(phrase);
+                phraseInversee = InversePhraseMieux2(phrase);
                 Console.WriteLine("\n Version Améliorée");
                 Console.WriteLine(phraseInversee);
             }
